@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="modal-foundation">
+        <div id="modal-body">
+            <div id="modal-heading">
+                <h1>LUCK BE A LANDLORD</h1>
+            </div>
+            <div>
+                <form method="POST" action="/items" enctype="multipart/form-data">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div>
+                    <label for="rarity">Rarity</label>
+                    <input type="text" name="rarity" id="rarity">
+                </div>
+                <div>
+                    <label for="description">descritption</label>
+                    <input type="text" name="description" id="description">
+                </div>
+                <div>
+                    <label for="goldPerTurn">Gold Per Turn</label>
+                    <input type="text" name="goldPerTurn" id="goldPerTurn">
+                </div>
+                <div>
+                    <label for="picture">Picture</label>
+                    <input type="file" name="picture" id="picture">
+                </div>
+                <button type="button" id="submit">Submit</button>
+            </form>
+                
+
+            </div>
+            <div id="view">
+                
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
